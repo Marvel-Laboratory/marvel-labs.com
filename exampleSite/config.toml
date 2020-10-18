@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
-title = "Bigspring Hugo"
-theme = "bigspring"
+baseURL = "https://marvel-labs.com/"
+title = "Shopware | E-commerce | Marvel Labs"
+theme = ""
 languageName = "En"
 languageCode = "en-us"
 # post pagination
@@ -39,23 +39,23 @@ link = "plugins/slick/slick.min.js"
 
 # main menu
 [[menu.main]]
-name = "Blog"
-URL = "blog"
+name = "About"
+URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "Pricing"
-URL = "pricing"
+name = "Services"
+URL = "services"
 weight = 2
+
+[[menu.main]]
+name = "Plugins"
+URL = "plugins"
+weight = 3
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 3
-
-[[menu.main]]
-name = "FAQ"
-URL = "faq"
 weight = 4
 
 # company 
@@ -101,17 +101,17 @@ URL = "faq"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-logo_width = "200px"
+logo_width = "50px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Professional Shopware shops ✓ More sales ✓ Shopware plugins ► Find out more now"
+author = "Marvel-Labs"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xyyberpr" # contact form works with https://formspree.io
 
 ########### footer content ##########
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "We believe in three words: innovative, quality and efficiency. "
 # copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright © Marvel Labs 2020"
 
 # Preloader
 [params.preloader]
@@ -121,8 +121,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [params.navigation_button]
 enable = true
-label = "Get Started"
-link = "contact"
+label = "Documentation"
+link = "docs"
 
   
 ############################# social site ########################
