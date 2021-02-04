@@ -12,13 +12,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
-          <button type="submit" value="send" class="btn btn-primary">Send Now</button>
+        <form action="/" method="POST" id="contact-us">
+          <label for="name"></label><input type="text" class="form-control mb-3" id="name" name="name"
+                                           placeholder="Your Name">
+          <label for="mail" class="d-none"></label><input type="email" class="form-control mb-3" id="email" name="email"
+                                                          placeholder="Your Email">
+          <label for="subject" class="d-none"></label><input type="text" class="form-control mb-3" id="subject" name="subject"
+                                                             placeholder="Subject">
+          <label for="message" class="d-none"></label><textarea name="message" id="message" class="form-control mb-3"
+                                                                placeholder="Your Message"></textarea>
+
+          <label for="visa" class="d-none"><input type="text" id="visa" name="visa" placeholder="visa"/></label>
+
+          <button type="submit" value="send" class="btn btn-primary">Send</button>
         </form>
+
       </div>
       
       <div class="col-lg-5 content">
