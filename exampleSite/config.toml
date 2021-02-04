@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://marvel-labs.com/"
 title = "Shopware | E-commerce | Marvel Labs"
-theme = ""
+theme = "ml-site"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
